@@ -27,7 +27,9 @@ html {
 
 /* Global body styling: dark theme, modern font */
 body {
-    background-color: #121212;
+    
+    background: url('/Images/bg-neutral.png') no-repeat center center fixed;
+    background-size: cover;
     color: #f1f1f1;
     font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -213,6 +215,46 @@ input[type="checkbox"] {
             left: 51%;
             transform: translate(-50%, -50%) rotate(45deg);
         }
+
+
+
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+}
+
+.glass-container {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 40px 120px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    max-width: 900px;
+    width: 95%;
+}
+
+.logo {
+    height: 100px;
+    filter: drop-shadow(0 0 10px #007bff);
+}
+
+.btn-outline-light {
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+    .btn-outline-light:hover {
+        background-color: #007bff;
+        border-color: #007bff;
+        color: #fff;
+    }
 
 
 

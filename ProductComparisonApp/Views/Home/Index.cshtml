@@ -1,8 +1,32 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="hero">
+    <div class="glass-container text-center">
+        <img src="~/Images/PCA_logo.png" alt="Logo" class="logo mb-3" />
+        <h1 class="display-4 fw-bold text-white">Product Comparison App</h1>
+        <p class="lead text-light">Лесен и модерен начин да сравняваш ИТ продукти</p>
+
+        <div class="row mt-4">
+            <div class="col-md-4 mb-3">
+                <a href="/Headphones" class="btn btn-outline-light w-100 py-3">🎧 Headphones</a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="/Mice" class="btn btn-outline-light w-100 py-3">🖱 Mice</a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="/Keyboards" class="btn btn-outline-light w-100 py-3">⌨️ Keyboards</a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="/Monitors" class="btn btn-outline-light w-100 py-3">🖥 Monitors</a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="/Microphones" class="btn btn-outline-light w-100 py-3">🎙 Microphones</a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="/Webcams" class="btn btn-outline-light w-100 py-3">📷 Webcams</a>
+            </div>
+        </div>
+    </div>
 </div>
