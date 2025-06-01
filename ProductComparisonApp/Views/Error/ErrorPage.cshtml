@@ -1,6 +1,7 @@
 ﻿@{
     Layout = "_Layout";
     var code = ViewBag.StatusCode ?? 500;
+    ViewData["Title"] = "Error";
     string message = code switch
     {
         404 => "Страницата не беше намерена.",
