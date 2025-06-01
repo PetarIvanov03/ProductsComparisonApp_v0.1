@@ -1,0 +1,43 @@
+﻿@model ProductComparisonApp.ViewModels.ProductComparisonViewModel<ProductComparisonApp.Models.Headphones>
+@{
+    ViewData["Title"] = Model.CategoryName;
+}
+<h2>@Model.CategoryName</h2>
+
+<form method="post">
+    <table class="table table-bordered table-hover table-striped">
+        <thead>
+            <tr>
+                <th>Select</th>
+                <th>Image</th>
+                <th><a asp-action="Index" asp-route-sortBy="Name">Name</a></th>
+                <th><a asp-action="Index" asp-route-sortBy="Brand">Brand</a></th>
+                <th><a asp-action="Index" asp-route-sortBy="Price">Price</a></th>
+                <th><a asp-action="Index" asp-route-sortBy="Wireless">Wireless</a></th>
+                <th><a asp-action="Index" asp-route-sortBy="Connection">Connection</a></th>
+                <th><a asp-action="Index" asp-route-sortBy="Battery">Battery Life</a></th>
+                <th><a asp-action="Index" asp-route-sortBy="Noise">Noise Cancelling</a></th>
+                <th><a asp-action="Index" asp-route-sortBy="Microphone">Mic</a></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model.Products)
+            {
+                <tr>
+                    <td><input type="checkbox" name="SelectedProductIds" value="@product.Id" /></td>
+                    <td>
+                        <img src="@Url.Content(product.ImageUrl)" alt="@product.Name" width="60" class="rounded-img" />
+                    </td>
+                    <td>@product.Name</td>
+                    <td>@product.Brand</td>
+                    <td>@product.Price.ToString("C")</td>
+                    <td>@(product.IsWireless ? "Yes" : "No")</td>
+                    <td>@product.ConnectionType</td>
+                    <td>@product.BatteryLifeHours</td>
+                    <td>@(product.HasNoiseCancelling ? "Yes" : "No")</td>
+                    <td>@(product.HasMicrophone ? "Yes" : "No")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>
