@@ -29,6 +29,14 @@
       "PackagePath": "staticwebassets\\Images\\ChatGPT_Webcam.png"
     },
     {
+      "Id": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\Images\\PCA_logo.png",
+      "PackagePath": "staticwebassets\\Images\\PCA_logo.png"
+    },
+    {
+      "Id": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\Images\\bg-neutral.png",
+      "PackagePath": "staticwebassets\\Images\\bg-neutral.png"
+    },
+    {
       "Id": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

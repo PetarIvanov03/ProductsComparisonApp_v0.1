@@ -1,11 +1,13 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Images\bg-neutral.png
 wwwroot\Images\ChatGPT_Headphones.png
 wwwroot\Images\ChatGPT_Keyboard.png
 wwwroot\Images\ChatGPT_Microphone.png
 wwwroot\Images\ChatGPT_Monitor.png
 wwwroot\Images\ChatGPT_Mouse.png
 wwwroot\Images\ChatGPT_Webcam.png
+wwwroot\Images\PCA_logo.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

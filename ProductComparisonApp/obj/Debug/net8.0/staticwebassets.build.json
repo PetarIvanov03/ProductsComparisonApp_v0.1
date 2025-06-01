@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wD6xR9N+KFHSU6lgnE75wySwApD4SBDXx/bZhsN3b3k=",
+  "Hash": "cAn+5G3KdbYlysToAoYy+g3fIoHEcHKRHd4BN2/7tYg=",
   "Source": "ProductComparisonApp",
   "BasePath": "_content/ProductComparisonApp",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5effnryvlc",
-      "Integrity": "U2F5Lvdpv52/tHkdDWrOl1q2pCEFDiK23AdpQBQUE/g=",
+      "Fingerprint": "ah7705x49a",
+      "Integrity": "Ypq674c2SPqKsRH7OH7fk4hpIp86z86pwC+x/jlJmxs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -94,11 +94,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "61n19gt1b8",
-      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "Fingerprint": "e1gwu6eff9",
+      "Integrity": "zpBsxC6NAwu/m9J5WUuVOZZVLkLRlrsKopslgQ6WrU8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\Images\\bg-neutral.png",
+      "SourceId": "ProductComparisonApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\",
+      "BasePath": "_content/ProductComparisonApp",
+      "RelativePath": "Images/bg-neutral#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i8kq28tu12",
+      "Integrity": "8poUyOR+tek7agEKsLnMxDaIC3ysgMUzW9asNww0kkY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\bg-neutral.png"
     },
     {
       "Identity": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\Images\\ChatGPT_Headphones.png",
@@ -225,6 +246,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\ChatGPT_Webcam.png"
+    },
+    {
+      "Identity": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\Images\\PCA_logo.png",
+      "SourceId": "ProductComparisonApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\",
+      "BasePath": "_content/ProductComparisonApp",
+      "RelativePath": "Images/PCA_logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zb5gn5c2n7",
+      "Integrity": "AZZ9qUt2hMT1ZmIbryZxvn+xfHLxiaGBt28tiRR0s0Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\PCA_logo.png"
     },
     {
       "Identity": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\js\\site.js",
@@ -1447,7 +1489,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.5effnryvlc.css",
+      "Route": "css/site.ah7705x49a.css",
       "AssetFile": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1457,7 +1499,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5570"
+          "Value": "6690"
         },
         {
           "Name": "Content-Type",
@@ -1465,11 +1507,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"U2F5Lvdpv52/tHkdDWrOl1q2pCEFDiK23AdpQBQUE/g=\""
+          "Value": "\"Ypq674c2SPqKsRH7OH7fk4hpIp86z86pwC+x/jlJmxs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 16:19:03 GMT"
+          "Value": "Sun, 01 Jun 2025 13:22:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1479,7 +1521,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5effnryvlc"
+          "Value": "ah7705x49a"
         },
         {
           "Name": "label",
@@ -1487,7 +1529,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-U2F5Lvdpv52/tHkdDWrOl1q2pCEFDiK23AdpQBQUE/g="
+          "Value": "sha256-Ypq674c2SPqKsRH7OH7fk4hpIp86z86pwC+x/jlJmxs="
         }
       ]
     },
@@ -1502,7 +1544,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5570"
+          "Value": "6690"
         },
         {
           "Name": "Content-Type",
@@ -1510,11 +1552,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"U2F5Lvdpv52/tHkdDWrOl1q2pCEFDiK23AdpQBQUE/g=\""
+          "Value": "\"Ypq674c2SPqKsRH7OH7fk4hpIp86z86pwC+x/jlJmxs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 16:19:03 GMT"
+          "Value": "Sun, 01 Jun 2025 13:22:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1524,12 +1566,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-U2F5Lvdpv52/tHkdDWrOl1q2pCEFDiK23AdpQBQUE/g="
+          "Value": "sha256-Ypq674c2SPqKsRH7OH7fk4hpIp86z86pwC+x/jlJmxs="
         }
       ]
     },
     {
-      "Route": "favicon.61n19gt1b8.ico",
+      "Route": "favicon.e1gwu6eff9.ico",
       "AssetFile": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1539,7 +1581,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5430"
+          "Value": "15086"
         },
         {
           "Name": "Content-Type",
@@ -1547,11 +1589,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+          "Value": "\"zpBsxC6NAwu/m9J5WUuVOZZVLkLRlrsKopslgQ6WrU8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 14:07:14 GMT"
+          "Value": "Sun, 01 Jun 2025 12:48:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1561,7 +1603,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "61n19gt1b8"
+          "Value": "e1gwu6eff9"
         },
         {
           "Name": "label",
@@ -1569,7 +1611,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+          "Value": "sha256-zpBsxC6NAwu/m9J5WUuVOZZVLkLRlrsKopslgQ6WrU8="
         }
       ]
     },
@@ -1584,7 +1626,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5430"
+          "Value": "15086"
         },
         {
           "Name": "Content-Type",
@@ -1592,11 +1634,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+          "Value": "\"zpBsxC6NAwu/m9J5WUuVOZZVLkLRlrsKopslgQ6WrU8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 14:07:14 GMT"
+          "Value": "Sun, 01 Jun 2025 12:48:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1606,7 +1648,89 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+          "Value": "sha256-zpBsxC6NAwu/m9J5WUuVOZZVLkLRlrsKopslgQ6WrU8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/bg-neutral.i8kq28tu12.png",
+      "AssetFile": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\Images\\bg-neutral.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2262600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8poUyOR+tek7agEKsLnMxDaIC3ysgMUzW9asNww0kkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 12:53:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i8kq28tu12"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/bg-neutral.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8poUyOR+tek7agEKsLnMxDaIC3ysgMUzW9asNww0kkY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/bg-neutral.png",
+      "AssetFile": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\Images\\bg-neutral.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2262600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8poUyOR+tek7agEKsLnMxDaIC3ysgMUzW9asNww0kkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 12:53:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8poUyOR+tek7agEKsLnMxDaIC3ysgMUzW9asNww0kkY="
         }
       ]
     },
@@ -2099,6 +2223,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-tMZBlvRB7p2uZbDz4+dq02IcHFwGvzVsACU2EPVeGf4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/PCA_logo.png",
+      "AssetFile": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\Images\\PCA_logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AZZ9qUt2hMT1ZmIbryZxvn+xfHLxiaGBt28tiRR0s0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 12:46:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AZZ9qUt2hMT1ZmIbryZxvn+xfHLxiaGBt28tiRR0s0Y="
+        }
+      ]
+    },
+    {
+      "Route": "Images/PCA_logo.zb5gn5c2n7.png",
+      "AssetFile": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\Images\\PCA_logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AZZ9qUt2hMT1ZmIbryZxvn+xfHLxiaGBt28tiRR0s0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 12:46:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zb5gn5c2n7"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/PCA_logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AZZ9qUt2hMT1ZmIbryZxvn+xfHLxiaGBt28tiRR0s0Y="
         }
       ]
     },

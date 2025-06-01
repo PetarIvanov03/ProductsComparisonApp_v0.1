@@ -224,7 +224,6 @@ input[type="checkbox"] {
     display: flex;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(4px);
 }
 
 .glass-container {
@@ -265,4 +264,19 @@ footer {
     font-size: 1rem;
     color: #aaa;
     text-align: center;
+}
+
+
+
+.error-code {
+    font-size: 8rem;
+    font-weight: 800;
+    color: #e74c3c;
+    text-shadow: 0 0 10px rgba(231, 76, 60, 0.6), 0 0 20px rgba(231, 76, 60, 0.5), 0 0 30px rgba(231, 76, 60, 0.4);
+    margin-bottom: 1rem;
+}
+
+.error-text {
+    font-size: 1.5rem;
+    font-weight: 500;
 }
