@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|d:\\side programming\\side_projects\\productscomparisonapp_v0.1\\productcomparisonapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|solutionrelative:productcomparisonapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|d:\\side programming\\side_projects\\productscomparisonapp_v0.1\\productcomparisonapp\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|solutionrelative:productcomparisonapp\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|d:\\side programming\\side_projects\\productscomparisonapp_v0.1\\productcomparisonapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|solutionrelative:productcomparisonapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|d:\\side programming\\side_projects\\productscomparisonapp_v0.1\\productcomparisonapp\\views\\error\\errorpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|solutionrelative:productcomparisonapp\\views\\error\\errorpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|d:\\side programming\\side_projects\\productscomparisonapp_v0.1\\productcomparisonapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|solutionrelative:productcomparisonapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|d:\\side programming\\side_projects\\productscomparisonapp_v0.1\\productcomparisonapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|solutionrelative:productcomparisonapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|d:\\side programming\\side_projects\\productscomparisonapp_v0.1\\productcomparisonapp\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|solutionrelative:productcomparisonapp\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|d:\\side programming\\side_projects\\productscomparisonapp_v0.1\\productcomparisonapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|solutionrelative:productcomparisonapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|d:\\side programming\\side_projects\\productscomparisonapp_v0.1\\productcomparisonapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|solutionrelative:productcomparisonapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|d:\\side programming\\side_projects\\productscomparisonapp_v0.1\\productcomparisonapp\\data\\productdatagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|solutionrelative:productcomparisonapp\\data\\productdatagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABFD3E07-FAEA-4054-B3B4-01B3CCF53C9B}|ProductComparisonApp\\ProductComparisonApp.csproj|d:\\side programming\\side_projects\\productscomparisonapp_v0.1\\productcomparisonapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -30,67 +42,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\Program.cs",
-              "RelativeDocumentMoniker": "ProductComparisonApp\\Program.cs",
-              "ToolTip": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\Program.cs",
-              "RelativeToolTip": "ProductComparisonApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T13:21:38.224Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ProductComparisonApp\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ProductComparisonApp\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAAwPkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-02T16:24:42.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ErrorController.cs",
               "DocumentMoniker": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\Controllers\\ErrorController.cs",
               "RelativeDocumentMoniker": "ProductComparisonApp\\Controllers\\ErrorController.cs",
               "ToolTip": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\Controllers\\ErrorController.cs",
               "RelativeToolTip": "ProductComparisonApp\\Controllers\\ErrorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T13:20:31.935Z"
+              "WhenOpened": "2025-06-01T13:20:31.935Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProductComparisonApp\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ProductComparisonApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-01T13:06:58.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "ProductComparisonApp\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "ProductComparisonApp\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAO0AAAAAAAAAAAAwwAsBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-01T12:24:53.222Z"
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProductComparisonApp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProductComparisonApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:15:58.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductDataGenerator.cs",
+              "DocumentMoniker": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\Data\\ProductDataGenerator.cs",
+              "RelativeDocumentMoniker": "ProductComparisonApp\\Data\\ProductDataGenerator.cs",
+              "ToolTip": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\Data\\ProductDataGenerator.cs",
+              "RelativeToolTip": "ProductComparisonApp\\Data\\ProductDataGenerator.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwDgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T20:01:40.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorPage.cshtml",
+              "DocumentMoniker": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\Views\\Error\\ErrorPage.cshtml",
+              "RelativeDocumentMoniker": "ProductComparisonApp\\Views\\Error\\ErrorPage.cshtml",
+              "ToolTip": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\Views\\Error\\ErrorPage.cshtml",
+              "RelativeToolTip": "ProductComparisonApp\\Views\\Error\\ErrorPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T15:06:08.961Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\Program.cs",
+              "RelativeDocumentMoniker": "ProductComparisonApp\\Program.cs",
+              "ToolTip": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\Program.cs",
+              "RelativeToolTip": "ProductComparisonApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:21:38.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ProductComparisonApp\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ProductComparisonApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-01T12:23:18.471Z"
             }
