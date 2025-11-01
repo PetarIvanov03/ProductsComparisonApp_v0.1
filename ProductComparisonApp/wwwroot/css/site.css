@@ -1,3 +1,126 @@
+﻿/* ===========================
+   Dark theme variables
+   =========================== */
+:root {
+    --bg-image: url('/Images/bg-neutral-light.png');
+    --bg-repeat: no-repeat;
+    --bg-position: center center;
+    --bg-attachment: fixed;
+    --bg-size: cover;
+
+    /* neutrals inverted */
+    --focus-ring-inner: #000000; /* was #ffffff */
+    --text: #0E0E0E; /* was #f1f1f1 */
+    --text-strong: #000000; /* was #ffffff */
+    --heading: #000000; /* was #ffffff */
+    --link: #0E0E0E; /* was #f1f1f1 */
+    --link-hover: #000000; /* was #ffffff */
+    --card-bg: #E1E1E1; /* was #1e1e1e */
+    --row-bg: #E1E1E1; /* was #1e1e1e */
+    --shadow-row: rgba(255, 255, 255, 0.3); /* was rgba(0, 0, 0, 0.3) */
+    --shadow-img: rgba(255, 255, 255, 0.5); /* was rgba(0, 0, 0, 0.5) */
+    --shadow-glass: rgba(255, 255, 255, 0.2); /* was rgba(0, 0, 0, 0.2) */
+    --checkbox-bg: #E7E7E7; /* was #181818 */
+    --checkbox-border: #BBBBBB; /* was #444444 */
+    --checkbox-bg-checked: #D5D5D5; /* was #2a2a2a */
+    --checkmark: #333333; /* was #cccccc */
+    --glass-bg: rgba(0, 0, 0, 0.05); /* was rgba(255, 255, 255, 0.05) */
+    --glass-border: rgba(0, 0, 0, 0.15); /* was rgba(255, 255, 255, 0.15) */
+    --white: #000000; /* was #ffffff */
+    --footer-bg: #EDEDED; /* was #121212 */
+    --footer-border: #D3D3D3; /* was #2c2c2c */
+    --footer-text: #555555; /* was #aaaaaa */
+    /* keep colored as-is */
+    --focus-ring-outer: #258cfb;
+    --primary: #007bff;
+    --error: #e74c3c;
+    --error-glow-1: rgba(231, 76, 60, 0.6);
+    --error-glow-2: rgba(231, 76, 60, 0.5);
+    --error-glow-3: rgba(231, 76, 60, 0.4);
+}
+
+
+/* ===========================
+   Dark theme variables
+   =========================== */
+html[data-theme="dark"] {
+    --bg-image: url('/Images/bg-neutral.png');
+    --bg-repeat: no-repeat;
+    --bg-position: center center;
+    --bg-attachment: fixed;
+    --bg-size: cover;
+
+    --focus-ring-inner: #ffffff;
+    --focus-ring-outer: #258cfb;
+    --text: #f1f1f1;
+    --text-strong: #ffffff;
+    --heading: #ffffff;
+    --link: #f1f1f1;
+    --link-hover: #ffffff;
+    --card-bg: #1e1e1e;
+    --row-bg: #1e1e1e;
+    --shadow-row: rgba(0, 0, 0, 0.3);
+    --shadow-img: rgba(0, 0, 0, 0.5);
+    --shadow-glass: rgba(0, 0, 0, 0.2);
+    --checkbox-bg: #181818;
+    --checkbox-border: #444444;
+    --checkbox-bg-checked: #2a2a2a;
+    --checkmark: #cccccc;
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.15);
+    --primary: #007bff;
+    --white: #ffffff;
+    --footer-bg: #121212;
+    --footer-border: #2c2c2c;
+    --footer-text: #aaaaaa;
+    --error: #e74c3c;
+    --error-glow-1: rgba(231, 76, 60, 0.6);
+    --error-glow-2: rgba(231, 76, 60, 0.5);
+    --error-glow-3: rgba(231, 76, 60, 0.4);
+}
+
+/* Глобален 1s transition за всички елементи при смяна на тема */
+:root {
+    --theme-transition: color 1s ease, background-color 1s ease, border-color 1s ease, box-shadow 1s ease, filter 1s ease, text-shadow 1s ease;
+}
+
+/* Първоначално без преход (избягва мигване при първи paint) */
+html:not(.theme-ready) *,
+html:not(.theme-ready) *::before,
+html:not(.theme-ready) *::after {
+    transition: none !important;
+}
+
+/* След като страницата е готова — включи плавните преходи */
+html.theme-ready *,
+html.theme-ready *::before,
+html.theme-ready *::after {
+    transition: var(--theme-transition);
+}
+
+/* Уважавай системната настройка за намалени анимации */
+@media (prefers-reduced-motion: reduce) {
+    html.theme-ready *,
+    html.theme-ready *::before,
+    html.theme-ready *::after {
+        transition: none !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Default font size for small devices */
 html {
     font-size: 14px;
@@ -16,7 +139,7 @@ html {
 .btn-link.nav-link:focus,
 .form-control:focus,
 .form-check-input:focus {
-    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem var(--focus-ring-inner), 0 0 0 0.25rem var(--focus-ring-outer);
 }
 
 /* Ensure page always stretches full height */
@@ -27,17 +150,19 @@ html {
 
 /* Global body styling: dark theme, modern font */
 body {
-    
-    background: url('/Images/bg-neutral.png') no-repeat center center fixed;
-    background-size: cover;
-    color: #f1f1f1;
+    background-image: var(--bg-image);
+    background-repeat: var(--bg-repeat);
+    background-position: var(--bg-position);
+    background-attachment: var(--bg-attachment);
+    background-size: var(--bg-size);
+    color: var(--text);
     font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Slightly rounded images with shadow */
 .rounded-img {
     border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 4px var(--shadow-img);
 }
 
 /* Central layout container with padding */
@@ -50,7 +175,7 @@ body {
 
 /* Heading colors for dark background */
 h1, h2, h3, h4, h5 {
-    color: #ffffff;
+    color: var(--heading);
 }
 
 /* Bigger title above table */
@@ -67,7 +192,7 @@ h2 {
     border-spacing: 0 0.75rem;
     width: 100%;
     background-color: transparent;
-    color: #f1f1f1;
+    color: var(--text);
     margin-bottom: 5rem;
 }
 
@@ -76,7 +201,7 @@ h2 {
         background-color: transparent;
     }
 
-    /* Column headers � larger and bolder text */
+    /* Column headers – larger and bolder text */
     .table th {
         font-weight: 500;
         text-align: center;
@@ -89,7 +214,7 @@ h2 {
 
         /* Style sortable links in headers */
         .table th a {
-            color: #f1f1f1;
+            color: var(--link);
             text-decoration: none;
             font-weight: normal;
             font-size: 1.3rem;
@@ -101,16 +226,16 @@ h2 {
 
             .table th a:hover {
                 font-weight: bold;
-                color: #ffffff;
+                color: var(--link-hover);
                 text-decoration: none;
             }
 
     /* Make each row look like a card with shadow and rounded edges */
     .table tbody tr {
-        background-color: #1e1e1e;
+        background-color: var(--row-bg);
         border-radius: 12px;
         overflow: hidden;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 2px 6px var(--shadow-row);
         cursor: pointer; /* clickable row effect */
     }
 
@@ -118,7 +243,7 @@ h2 {
     .table td {
         padding: 0.5rem 0.6rem;
         border: none;
-        color: #ffffff;
+        color: var(--text-strong);
         text-align: center;
         vertical-align: middle; /* <--- center content vertically */
         font-size: 1rem;
@@ -144,15 +269,12 @@ h2 {
     /* Reduce padding between image and edges */
     .table img.rounded-img {
         border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 2px 4px var(--shadow-img);
         width: 64px;
         height: auto;
         margin: 0.2rem auto; /* center vertically, reduce spacing */
         display: block;
     }
-
-
-
 
 /* Header cell default: normal font weight, centered */
 th {
@@ -163,7 +285,7 @@ th {
 
     /* Sortable column links: no underline, fixed width */
     th a {
-        color: #f1f1f1;
+        color: var(--link);
         text-decoration: none;
         font-weight: normal;
         display: inline-block;
@@ -175,19 +297,17 @@ th {
         /* Bold on hover for sortable links without layout shift */
         th a:hover {
             font-weight: bold;
-            color: #ffffff;
+            color: var(--link-hover);
             text-decoration: none;
         }
-
-
 
 /* Base dark checkbox */
 input[type="checkbox"] {
     appearance: none;
     width: 1.2rem;
     height: 1.2rem;
-    background-color: #181818;
-    border: 1px solid #444;
+    background-color: var(--checkbox-bg);
+    border: 1px solid var(--checkbox-border);
     border-radius: 3px;
     cursor: pointer;
     transition: background-color 0.2s ease, box-shadow 0.2s ease;
@@ -199,7 +319,7 @@ input[type="checkbox"] {
 
     /* When checked */
     input[type="checkbox"]:checked {
-        background-color: #2a2a2a;
+        background-color: var(--checkbox-bg-checked);
     }
 
         input[type="checkbox"]:checked::after {
@@ -207,7 +327,7 @@ input[type="checkbox"] {
             position: absolute;
             width: 6px;
             height: 10px;
-            border: solid #ccc;
+            border: solid var(--checkmark);
             border-width: 0 2px 2px 0;
             transform: rotate(45deg);
             display: block;
@@ -215,9 +335,6 @@ input[type="checkbox"] {
             left: 51%;
             transform: translate(-50%, -50%) rotate(45deg);
         }
-
-
-
 
 .hero {
     height: 100vh;
@@ -227,11 +344,11 @@ input[type="checkbox"] {
 }
 
 .glass-container {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
     padding: 40px 120px;
     border-radius: 20px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 32px var(--shadow-glass);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     max-width: 900px;
@@ -240,39 +357,35 @@ input[type="checkbox"] {
 
 .logo {
     height: 100px;
-    filter: drop-shadow(0 0 10px #007bff);
+    filter: drop-shadow(0 0 10px var(--primary));
 }
 
 .btn-outline-light {
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid var(--white);
+    color: var(--white);
     transition: all 0.5s ease;
 }
 
     .btn-outline-light:hover {
-        background-color: #007bff;
-        border-color: #007bff;
-        color: #fff;
+        background-color: var(--primary);
+        border-color: var(--primary);
+        color: var(--white);
     }
 
-
-
 footer {
-    background-color: #121212;
-    border-top: 1px solid #2c2c2c;
+    background-color: var(--footer-bg);
+    border-top: 1px solid var(--footer-border);
     padding: 0 0;
     font-size: 1rem;
-    color: #aaa;
+    color: var(--footer-text);
     text-align: center;
 }
-
-
 
 .error-code {
     font-size: 8rem;
     font-weight: 800;
-    color: #e74c3c;
-    text-shadow: 0 0 10px rgba(231, 76, 60, 0.6), 0 0 20px rgba(231, 76, 60, 0.5), 0 0 30px rgba(231, 76, 60, 0.4);
+    color: var(--error);
+    text-shadow: 0 0 10px var(--error-glow-1), 0 0 20px var(--error-glow-2), 0 0 30px var(--error-glow-3);
     margin-bottom: 1rem;
 }
 

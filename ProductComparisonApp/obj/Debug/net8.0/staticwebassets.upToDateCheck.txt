@@ -1,6 +1,7 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Images\bg-neutral.png
+wwwroot\Images\bg-neutral-light.png
 wwwroot\Images\ChatGPT_Headphones.png
 wwwroot\Images\ChatGPT_Keyboard.png
 wwwroot\Images\ChatGPT_Microphone.png

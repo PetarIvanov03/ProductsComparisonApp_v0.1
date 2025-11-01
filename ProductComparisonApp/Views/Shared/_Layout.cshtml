@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PCA - @ViewData["Title"]</title>
 
+    <!-- 1) Сетни темата ВЕДНАГА (без FOUC) -->
+    <script>
+        (function () {
+          const saved = localStorage.getItem('theme'); // 'light' | 'dark' | null => auto (system)
+          const systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          const theme = saved || (systemDark ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', theme);
+        })();
+    </script>
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 
@@ -35,6 +45,8 @@
                         <li class="nav-item"><a class="nav-link" asp-controller="Webcams" asp-action="Index">Webcams</a></li>
                     </ul>
                 </div>
+                <!-- 2) Бутон за превключване -->
+                <button id="themeToggle" class="btn btn-outline-light" type="button" aria-label="Превключи тема">🌓</button>
             </div>
         </nav>
     </header>
@@ -56,5 +68,37 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
+    <!-- 3) Логика за превключване + запомняне -->
+    <script>
+        (function () {
+          const KEY = 'theme';
+          const html = document.documentElement;
+          const btn = document.getElementById('themeToggle');
+
+          function setTheme(t) {
+            html.setAttribute('data-theme', t);
+            try { localStorage.setItem(KEY, t); } catch (e) {}
+            btn?.setAttribute('aria-pressed', t === 'dark');
+          }
+
+          btn?.addEventListener('click', function () {
+            const cur = html.getAttribute('data-theme') || 'light';
+            setTheme(cur === 'dark' ? 'light' : 'dark');
+          });
+
+          // Ако НЯМА запазен избор -> следвай системната промяна динамично
+          try {
+            if (!localStorage.getItem(KEY) && window.matchMedia) {
+              window.matchMedia('(prefers-color-scheme: dark)')
+                    .addEventListener('change', e => setTheme(e.matches ? 'dark' : 'light'));
+            }
+          } catch (e) {}
+          
+          document.addEventListener('DOMContentLoaded', function () {
+            document.documentElement.classList.add('theme-ready');
+          });
+        })();
+    </script>
 </body>
 </html>

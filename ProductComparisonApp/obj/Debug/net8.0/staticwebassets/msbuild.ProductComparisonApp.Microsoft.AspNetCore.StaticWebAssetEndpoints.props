@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/ProductComparisonApp/css/site.ah7705x49a.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ah7705x49a"},{"Name":"integrity","Value":"sha256-Ypq674c2SPqKsRH7OH7fk4hpIp86z86pwC\u002Bx/jlJmxs="},{"Name":"label","Value":"_content/ProductComparisonApp/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6690"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Ypq674c2SPqKsRH7OH7fk4hpIp86z86pwC\u002Bx/jlJmxs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 01 Jun 2025 13:22:57 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ProductComparisonApp/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ypq674c2SPqKsRH7OH7fk4hpIp86z86pwC\u002Bx/jlJmxs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6690"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Ypq674c2SPqKsRH7OH7fk4hpIp86z86pwC\u002Bx/jlJmxs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 01 Jun 2025 13:22:57 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IlWuITDmCOIiY1uVy7lj2NxTcxi0f33AkBCRpGdazP4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"11750"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022IlWuITDmCOIiY1uVy7lj2NxTcxi0f33AkBCRpGdazP4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 01 Nov 2025 14:11:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ProductComparisonApp/css/site.ex7on4tdf2.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ex7on4tdf2"},{"Name":"integrity","Value":"sha256-IlWuITDmCOIiY1uVy7lj2NxTcxi0f33AkBCRpGdazP4="},{"Name":"label","Value":"_content/ProductComparisonApp/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"11750"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022IlWuITDmCOIiY1uVy7lj2NxTcxi0f33AkBCRpGdazP4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 01 Nov 2025 14:11:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ProductComparisonApp/favicon.e1gwu6eff9.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -23,6 +23,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zpBsxC6NAwu/m9J5WUuVOZZVLkLRlrsKopslgQ6WrU8="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"15086"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022zpBsxC6NAwu/m9J5WUuVOZZVLkLRlrsKopslgQ6WrU8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 01 Jun 2025 12:48:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ProductComparisonApp/Images/bg-neutral-light.irzoptd3nh.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\bg-neutral-light.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"irzoptd3nh"},{"Name":"integrity","Value":"sha256-8lfvEI6xNunsD\u002BgdXieCtyfKsTKINtveV6dZtrh6vSk="},{"Name":"label","Value":"_content/ProductComparisonApp/Images/bg-neutral-light.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3876100"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00228lfvEI6xNunsD\u002BgdXieCtyfKsTKINtveV6dZtrh6vSk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 01 Nov 2025 13:55:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ProductComparisonApp/Images/bg-neutral-light.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\bg-neutral-light.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8lfvEI6xNunsD\u002BgdXieCtyfKsTKINtveV6dZtrh6vSk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3876100"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00228lfvEI6xNunsD\u002BgdXieCtyfKsTKINtveV6dZtrh6vSk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 01 Nov 2025 13:55:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ProductComparisonApp/Images/bg-neutral.i8kq28tu12.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\bg-neutral.png'))</AssetFile>

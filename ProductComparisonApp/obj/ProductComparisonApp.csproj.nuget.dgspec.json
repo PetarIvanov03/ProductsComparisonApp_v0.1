@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\ProductComparisonApp.csproj": {}
+    "D:\\_CODING_\\Side Programming\\_Private_Repos_\\Project_PCA\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\ProductComparisonApp.csproj": {}
   },
   "projects": {
-    "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\ProductComparisonApp.csproj": {
+    "D:\\_CODING_\\Side Programming\\_Private_Repos_\\Project_PCA\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\ProductComparisonApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\ProductComparisonApp.csproj",
+        "projectUniqueName": "D:\\_CODING_\\Side Programming\\_Private_Repos_\\Project_PCA\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\ProductComparisonApp.csproj",
         "projectName": "ProductComparisonApp",
-        "projectPath": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\ProductComparisonApp.csproj",
+        "projectPath": "D:\\_CODING_\\Side Programming\\_Private_Repos_\\Project_PCA\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\ProductComparisonApp.csproj",
         "packagesPath": "C:\\Users\\Petar Ivanov\\.nuget\\packages\\",
-        "outputPath": "D:\\Side Programming\\Side_Projects\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\obj\\",
+        "outputPath": "D:\\_CODING_\\Side Programming\\_Private_Repos_\\Project_PCA\\ProductsComparisonApp_v0.1\\ProductComparisonApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
